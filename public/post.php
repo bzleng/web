@@ -40,7 +40,7 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('getPosts.php')
+    fetch('getPosts.php<?php echo isset($_GET['id']) ? '?id=' . $_GET['id'] : '' ?>')
         .then(response => response.json())
         .then(posts => {
             const postsContainer = document.getElementById('posts');
@@ -57,9 +57,9 @@ document.addEventListener("DOMContentLoaded", function() {
                     const postElement = document.createElement('div');
                     postElement.classList.add('bg-gray-800', 'p-6', 'rounded-lg', 'mb-6');
                     postElement.innerHTML = `
-                        <h2 class="text-2xl font-bold text-sky-500"><a href="post.php?id=${post.id}" class="text-sky-500">${post.title}</a></h2>
+                        <h2 class="text-2xl font-bold text-sky-500">${post.title}</h2>
                         <p class="text-blue-600">${post.date} by ${post.author}</p>
-                        <p class="mt-4 text-gray-300">${post.summary}</p>
+                        <p class="mt-4 text-gray-300">${post.content ? post.content : post.summary}</p>
                     `;
                     postsContainer.appendChild(postElement);
                 });
