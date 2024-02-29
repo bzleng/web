@@ -1,6 +1,6 @@
 <?php
 $postsDirectory = './posts';
-$posts = array_diff(scandir($postsDirectory), array('..', '.', '.htaccess')); 
+$posts = array_diff(scandir($postsDirectory), array('..', '.', 'index.html')); 
 
 $postsData = [];
 
