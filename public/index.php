@@ -29,7 +29,7 @@
 
 <div class="flex">
     <!-- Sidebar -->
-    <div id="sidebar" class="sidebar p-4 shadow-lg bg-sky-500/100">
+    <div id="sidebar" class="sidebar p-4 shadow-lg bg-gradient-to-r from-sky-500 to-sky-600">
     <h1 class="text-4xl text-stone-200 font-bold text-center mb-8">bzleng</h1>
     <nav class="mt-8">
         <a href="/" class="text-gray-900 hover:text-gray-600 nav-link">Blog</a>
@@ -41,7 +41,7 @@
 
     <!-- Main content -->
     <div class="flex-1 p-8">
-        <h1 class="text-4xl font-bold text-center my-12 prompt">> blog</h1>
+        <h1 class="text-4xl font-bold text-center my-12 prompt">&gt; blog</h1>
         <div id="posts" class="space-y-6">
             <!-- Posts will be loaded here -->
         </div>
