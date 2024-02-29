@@ -31,7 +31,7 @@
 
     <!-- Main content -->
     <div class="flex-1 p-8">
-        <h1 class="text-4xl font-bold text-sky-500 text-center my-12 prompt">&gt; blog</h1>
+        <h1 class="text-4xl font-bold text-sky-500 text-center my-12">&gt; blog</h1>
         <div id="posts" class="space-y-6">
             <!-- Posts will be loaded here -->
         </div>

@@ -34,7 +34,7 @@
 
     <!-- Main content -->
     <div class="flex-1 p-8">
-        <h1 class="text-4xl font-bold text-center my-12 prompt">&gt; peering</h1>
+        <h1 class="text-4xl font-bold text-center my-12 text-sky-500">&gt; peering</h1>
         <div id="main" class="space-y-6">
             Here you can find peering information for <a href="https://www.peeringdb.com/asn/11776" class="text-sky-600 hover:text-sky-800">AS11776</a>.
         </div>
