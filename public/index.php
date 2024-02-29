@@ -10,10 +10,9 @@
             font-family: 'Courier New', monospace;
         }
         .prompt {
-            color: #0369a1; /* Darker blue tone from the logo */
+            color: #0369a1;
         }
         .sidebar {
-            /* background-color: #bff8fd; Lighter blue background for sidebar */
             width: 250px;
             min-height: 100vh; /* Full height sidebar */
         }

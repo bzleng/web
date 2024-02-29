@@ -1,6 +1,6 @@
 <?php
 $postsDirectory = './posts';
-$posts = array_diff(scandir($postsDirectory), array('..', '.')); // Remove . and .. from the list
+$posts = array_diff(scandir($postsDirectory), array('..', '.')); 
 
 $postsData = [];
 
